@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nmcl-nmap"
+version = "1"
+description = "GUI for nmap"
+authors = ["roux.rose <roux.rose@proton.me>"]
+license = "gpl-v3.0"
+readme = "README.md"
+packages = [{include = "nmcl_nmap"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PySimpleGUI = "^4.60.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
